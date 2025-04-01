@@ -1,4 +1,42 @@
 /* Тут пиши основные стили */
+.header-item {
+    height: 84px;
+}
+
+.img-logo {
+    width: 97px;
+    height: 64px;
+    margin: 10px 0 10px 38px
+}
+
+ul {
+    margin: 0;
+}
+
+.nav {
+    height: 84px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #EFEFEF;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    cursor: url('responsive-design/E8E9A56B-53B7-494E-BE52-747EE607EC62/5301AFFB-CEE8-43FC-8F06-FB9785DF6E4A@1x.png'), auto;
+}
+
+
+.nav-item {
+    padding: 24px 0;
+    display: inline-block;
+    list-style: none;
+    height: 36px;
+    font-size: 24px;
+    text-align: left;
+    margin: 0 30px 0 0;
+
+}
 
 .selected {
     color: red;
@@ -19,11 +57,6 @@ article {
     width: 700px;
 }
 
-.shapka > li {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    display: inline-block;
-}
-
 .code {
     font-family: "Courier New", monospace;
     background-color: lightgrey;
@@ -31,10 +64,10 @@ article {
 
 .text {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-    text-align:left;
-    line-height:33px;
-    font-size:21px;
-    color:rgba(0,0,0,0.84);
+    text-align: left;
+    line-height: 33px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
 }
 
 @media (max-width: 800px) {
